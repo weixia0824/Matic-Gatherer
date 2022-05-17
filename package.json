@@ -1,0 +1,26 @@
+{
+  "name": "matic-gatherer",
+  "version": "1.0.0",
+  "description": "automate faucet on polygon testnet",
+  "main": "matic-gatherer.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xiaoran Wei",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/tx": "^3.5.1",
+    "@maticnetwork/maticjs": "^3.3.0",
+    "@maticnetwork/maticjs-plasma": "^1.0.4",
+    "bn": "^1.0.5",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.0",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^4.0.43",
+    "maticjs": "^1.0.1",
+    "node-fetch": "^3.2.3",
+    "utils": "^0.3.1",
+    "web3": "^1.7.3"
+  }
+}
